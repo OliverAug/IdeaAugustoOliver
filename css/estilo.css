@@ -75,48 +75,9 @@ body {
     font-size: 15px;
     position: relative;
     left: 600px;
+ }
 
-}
 
-@keyframes texto {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 100;
-    }
-}
-@keyframes animacion {
-    0% { 
-        width: 220px;
-    }
-
-    25% {
-        width: 240px;
-    }
-
-    50% {
-        width: 260px;
-    }
-
-    75% {
-        width: 280px;
-    }
-    
-    100% {
-        width: 300px;
-    }
-}
-
-.hijoflexanimacion {
-    background-color: #76140d;
-    animation-name: animacion;
-    animation-iteration-count: initial;
-    animation-timing-function: ease-in;
-    animation-duration: 1s;
-    animation-delay: 1s;
-}
 
 
 /*FLEXBOX Y GRIDS*/
